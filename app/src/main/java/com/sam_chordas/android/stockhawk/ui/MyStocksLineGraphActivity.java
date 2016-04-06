@@ -41,6 +41,11 @@ public class MyStocksLineGraphActivity extends AppCompatActivity {
         String clickedSymbol = getIntent().getStringExtra("symbol");
         LogUtil.log_i(LOG_TAG, "clicked stock symbol: " + clickedSymbol);
 
+        // set action bar title
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle(clickedSymbol);
+        }
+
         // start fetch stock data asynctask
         FetchHistoricalAsyncTask asyncTask = new FetchHistoricalAsyncTask();
         asyncTask.execute(clickedSymbol);

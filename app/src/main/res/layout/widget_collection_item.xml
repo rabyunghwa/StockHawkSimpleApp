@@ -2,6 +2,7 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              android:id="@+id/widget_list_item"
+    android:contentDescription="@string/bid_price"
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:background="@drawable/touch_selector_dark"
@@ -16,7 +17,7 @@
         android:layout_height="wrap_content"
         android:contentDescription="@string/stock_symbol"
         android:layout_margin="3dp"
-        android:gravity="left|center_vertical"
+        android:gravity="start|center_vertical"
         tools:text="GOOG"
         />
 
@@ -26,11 +27,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:contentDescription="@string/percent_change_pill"
-        android:layout_gravity="right"
+        android:layout_gravity="end"
         android:layout_margin="3dp"
         android:background="@drawable/percent_change_pill"
+        android:paddingStart="3dp"
         android:paddingLeft="3dp"
         android:paddingRight="3dp"
+        android:paddingEnd="3dp"
         tools:text="100%"
         />
 
