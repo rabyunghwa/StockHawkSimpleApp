@@ -1,0 +1,25 @@
+<resources>
+  <string name="app_name" translatable="true">Stock Hawk</string>
+
+  <string name="action_example">Example action</string>
+
+  <string name="action_settings" translatable="true">Settings</string>
+  <string name="action_change_units" translatable="true">Change Units</string>
+  <string name="symbol_search" translatable="true">Symbol Search</string>
+  <string name="content_test" translatable="true">Search for a Stock Symbol</string>
+  <string name="input_hint">FB</string>
+  <string name="input_prefill"></string>
+  <string name="widget_title" translatable="true">Today\'s Market</string>
+  <string name="network_toast" translatable="true">Uh-oh! This app requires an internet connection</string>
+  <string name="my_stock_list" translatable="true">My Stocks</string>
+  <string name="stock_symbol" translatable="true">Stock Symbol</string>
+  <string name="bid_price" translatable="true">Bid Price</string>
+  <string name="percent_change_pill" translatable="true">Percent Change Pill</string>
+  <string name="widget_list" translatable="true">Widget List</string>
+  <string name="empty_view">Internet disconnected. This can lead to a blank list or outdated data. Please go to settings and enable network connection.</string>
+  <string name="stock_info_fetched_failed">We couldn\'t find the stock. Please try again!</string>
+  <string name="my_stocks_line_graph_activity">My Stocks Line Graph Activity</string>
+  <string name="today">today</string>
+  <string name="yesterday">yesterday</string>
+  <string name="empty_stocks">NO DATA AVAILABLE</string>
+</resources>
